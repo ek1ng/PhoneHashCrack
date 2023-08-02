@@ -30,4 +30,6 @@ Usage of /tmp/go-build3070724103/b001/exe/main:
 
 ```
 
-example : `./main.go --start 11cbd --end 893d3`
+example : `./main --start 11cbd --end 893d4`
+
+![image.png](https://ek1ng-typora.oss-cn-hangzhou.aliyuncs.com/img/20230802180347.png)

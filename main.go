@@ -44,7 +44,7 @@ func main() {
 				var hexTest = make([]byte, hex.EncodedLen(len(targetTest)))
 				hex.Encode(hexTest, targetTest[:])
 				if targetStart == string(hexTest[0:5]) && targetEnd == string(hexTest[len(hexTest)-5:]) {
-					fmt.Println("[+] find phone number" + phone)
+					fmt.Println("[+] find phone number : " + phone)
 				}
 			}
 		}(areacode)
